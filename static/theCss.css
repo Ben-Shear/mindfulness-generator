@@ -1,0 +1,135 @@
+body
+{
+  background-color: #bdbdff;
+
+}
+/*the actual activity*/
+.mindful{
+  position: fixed;
+  left: 50%;
+  top:45%;
+  width: 800px;
+
+
+}
+
+.mindful p{
+  position: relative;
+  left:-400px;
+text-align: center;
+font-size: 35px;
+color:  #fff8d6;
+font-weight: bold;
+text-shadow: .0 0 .13em #523702, 0 0 .13em #523702;
+xfont-family: Arial, Verdana, monospace;
+}
+
+ .mindfulVeryLong p{
+position: relative;
+top: -60px;
+left:-400px;
+text-align: center;
+font-size: 30px;
+color:  #fff8d6;
+font-weight: bold;
+text-shadow: .0 0 .13em #523702, 0 0 .13em #523702;
+font-family: Arial, Verdana, monospace;
+}
+
+.mindful li{
+  position: relative;
+  top: -60px;
+  right: 240px;
+  text-align: left;
+  font-size: 30px;
+  color:  #fff8d6;
+  font-weight: bold;
+  text-shadow: .0 0 .13em #523702, 0 0 .13em #523702;
+  font-family: Arial, Verdana, monospace;
+
+}
+/*the bar at the top of the screen*/
+.topBar{
+  position: absolute;
+  top:0;
+  left: -1px;
+  width: 101%;
+  background-color: #0055a6;
+  height: 108px;
+  font-family: Arial, Verdana, monospace;
+  color:cornsilk;
+}
+
+.topBar button,
+.topBar p{
+  text-decoration: none;
+  color: cornsilk;
+  font-size: 30px;
+  margin: 10px 10px 0 10px;
+}
+
+.topTitle{
+  position: relative;
+  top: -3px;
+ font-family: "Varela Round", sans-serif;
+ text-shadow: 0 0 .009em cornsilk, 0 0 .009em cornsilk;
+ color: transparent;
+ text-decoration: underline;
+ text-decoration-style: double;
+ text-decoration-color: #034280;
+}
+
+.ranEx{
+  position: absolute;
+  top: 50px;
+  left:20%;
+}
+
+/*dropdown*/
+.TypedEx{
+  position: absolute;
+  left:60%;
+  top:50px;
+  background-color: #0055a6;
+  width: 230px;
+  height: 50px;
+  overflow: hidden;
+  text-decoration: none
+}
+.TypedEx a:hover,
+ .TypedEx:hover{
+  overflow: visible;
+  background-color: #0055a6;
+  height: 285px;
+  z-index: 1;
+  text-decoration: underline;
+  text-decoration-color: #034280;
+
+}
+.TypedEx button{
+  text-decoration: none;
+}
+
+/*hilighitng the background of the hovered button*/
+button:hover,
+.removeButton a:hover{
+  margin: 10px, 10px;
+  background-color: #034280;
+}
+
+/* stoping ancorts from looking lik ancors*/
+a:hover,
+a:link,
+a::after,
+a:visited,
+a:active
+{
+  text-decoration: none;
+  color: cornsilk;
+}
+
+/*other*/
+.removeButton{
+    background-color: transparent;
+    border: transparent;
+}
